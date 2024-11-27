@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>搶票</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="cover">
+    <h1>選擇您的門票</h1>
+    <p>選擇一場演唱會並開始搶票！</p>
+    <ul id="ticketList">
+      <li>演唱會 A <button class="btn grabBtn" data-ticket="演唱會 A">搶票</button></li>
+      <li>演唱會 B <button class="btn grabBtn" data-ticket="演唱會 B">搶票</button></li>
+      <li>演唱會 C <button class="btn grabBtn" data-ticket="演唱會 C">搶票</button></li>
+    </ul>
+    <div id="ticketMessage"></div>
+    <button onclick="logout()" class="btn">登出</button>
+  </div>
+  <script src="tickets.js"></script>
+</body>
+</html>
